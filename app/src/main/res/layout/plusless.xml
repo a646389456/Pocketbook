@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="118dp"
+        android:text="@string/types"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/typesHint"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/types"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/typesHint"
+        android:textSize="13sp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/brandHint"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-215dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/brand"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/brandHint"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:hint="@string/brandHint"
+        android:textSize="13sp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:text="@string/price"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/priceHint"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:hint="@string/priceHint"
+        android:textSize="13dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="178dp"
+        android:text="@string/number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numberHint"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/number"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/numberHint"
+        android:textSize="13sp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/less"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/plus"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:text="@string/less"
+        android:textSize="15sp"
+        android:onClick="less"
+        android:background="@drawable/bg_border"/>
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/types"
+        android:layout_alignLeft="@+id/types"
+        android:layout_marginBottom="90dp"
+        android:text="@string/plus"
+        android:textSize="15sp"
+        android:onClick="plus"
+        android:background="@drawable/bg_border"/>
+
+</RelativeLayout>

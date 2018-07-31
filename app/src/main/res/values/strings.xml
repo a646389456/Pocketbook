@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">记账本</string>
+    <string name="purchase">记一笔</string>
+    <string name="bill">结账</string>
+    <string name="types">类型：</string>
+    <string name="typesHint">衣服、裤子、鞋子等</string>
+    <string name="brand">品牌：</string>
+    <string name="brandHint">啄木鸟、森马、百斯盾等</string>
+    <string name="price">单价：</string>
+    <string name="priceHint">50</string>
+    <string name="number">数量：</string>
+    <string name="numberHint">2</string>
+    <string name="plus">进货</string>
+    <string name="less">出货</string>
+    <string name="billTable">账单</string>
+</resources>
